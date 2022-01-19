@@ -25,7 +25,7 @@ public class DebugSixteen3 extends JPanel implements ActionListener
      add(firstText);
      add(secText);
      add (findOutButton);
-     findOutbutton.addActionListener(this);
+     findOutButton.addActionListener(this);
    }
 
    @Override
@@ -46,7 +46,7 @@ public class DebugSixteen3 extends JPanel implements ActionListener
    public static void main(String[] args)
    {
       JFrame frame = new JFrame();
-      frame.add(new DebugSixteen3);
+      frame.add(new DebugSixteen3());
       frame.setSize(350, 250);
       frame.setVisible(true);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -14,7 +14,7 @@ public class DebugSixteen2 extends JPanel implements MouseListener
 
    public DebugSixteen2()
    {
-      addMouseListener();
+      addMouseListener(this);
    }
    public static void main(String[] args)
    {
@@ -29,7 +29,7 @@ public class DebugSixteen2 extends JPanel implements MouseListener
    public void mousePressed(MouseEvent e)
    {
       x = e.getX();
-      y = e.gety();
+      y = e.getY();
    }
 
    @Override
